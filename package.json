@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
+    "build": "webpack",
     "publish": "webpack && git add dist/bundle.js && git commit -m 'publish' && git push origin gh-pages",
     "start": "webpack-dev-server --config ./webpack.dev.config.js"
   },
